@@ -62,7 +62,9 @@ function playQuiz() {
     }
     console.log("------------------ \n")
   }
+  
   console.log("Your total SCORE : ", chalk.greenBright(initialScore))
+  console.log("Thank you!");
 }
 
 function confirmPlaying() {
